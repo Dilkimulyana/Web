@@ -1,0 +1,41 @@
+body {
+  background-image: url('assets/jpg/BG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h2.f {
+  border: solid white;
+  background-color: white;
+  margin-right: 55%;
+  padding: 3px;
+}
+#f {
+  height: 400px;
+  width: 300px;
+  border: 5px dashed white;
+  background-color: rgba(135, 206, 235, 0.8);
+  padding: 10px;
+}
+h2 {
+  text-align: justify;
+  line-height: 0.5;
+}
+p {
+  
+  word-spacing: 2px;
+  text-indent: 15px;
+}
+* {
+  box-sizing: border-box;
+}
+.box {
+  float: left;
+  width: 33%;
+  padding: 40px;
+  margin: 5px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+})
